@@ -19,8 +19,11 @@ func main() {
 	ll.InsertBeginning(2)
 	ll.InsertBeginning(3)
 	ll.InsertBeginning(4)
-
+	ll.Display()
+	ll.DeleteNode(1) 
+	ll.DeleteNode(7) 
 	ll.DeleteNode(4) 
+	ll.DeleteNode(3) 
 	ll.Display()
 }
 
